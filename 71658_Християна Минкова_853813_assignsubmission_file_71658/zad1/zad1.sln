@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "zad1", "zad1\zad1.vcxproj", "{BB29EBE0-F90A-42B4-B681-B554B18B00B6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB29EBE0-F90A-42B4-B681-B554B18B00B6}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB29EBE0-F90A-42B4-B681-B554B18B00B6}.Debug|Win32.Build.0 = Debug|Win32
+		{BB29EBE0-F90A-42B4-B681-B554B18B00B6}.Release|Win32.ActiveCfg = Release|Win32
+		{BB29EBE0-F90A-42B4-B681-B554B18B00B6}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
