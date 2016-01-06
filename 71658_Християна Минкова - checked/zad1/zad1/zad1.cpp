@@ -39,4 +39,5 @@ int main(){
 		}
 	system("pause");
 	return 0;
+	//cheater? 0.0\0.0
 }

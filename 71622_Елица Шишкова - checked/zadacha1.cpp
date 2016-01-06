@@ -1,9 +1,10 @@
-/*#include <iostream>
+#include <iostream>
 #include <cmath>
 using namespace std;
 
 double number(int num)
 {
+	//need some explaining
 	if ((num >= 7) && (num <= 39))
 		return 1;
 	int num1 = pow(num, 1 / 3);
@@ -36,4 +37,4 @@ int main()
 	cout << number(numOf);
 		system("Pause");
 		return 0;
-}*/
+}

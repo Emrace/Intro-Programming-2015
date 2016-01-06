@@ -1,6 +1,7 @@
 #include<cmath>
 #include<iostream>
 using namespace std;
+//should return bool
 int isPrime(unsigned n)
 {
 	unsigned i = 2;
@@ -11,14 +12,17 @@ int isPrime(unsigned n)
 		i++;
 	}
 	return 1;
+	//0.5
 }
 int Kub(int n){
 	for (int i = 1; i < n; i++)
 		if (pow(i,3) == n)
 			return true;
 	return false;
+	//0.5
 }
 int fib(int x){
+	//cheated? - -0.5
 	if (x == 1){
 		return 1;
 	}
@@ -31,6 +35,7 @@ int Suma(int n){
 	for (int i = 0; i < n; i++)
 		sum += n;
 	return sum;
+	
 }
 int main()
 {
@@ -43,5 +48,7 @@ int main()
 		cout << Suma(n) << endl;
 	system("pause");
 	return 0;
+
+	//1.5\2.0
 }
 

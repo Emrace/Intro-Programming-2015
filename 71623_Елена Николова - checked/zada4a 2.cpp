@@ -1,4 +1,4 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
 void insert(int a[10][10])
 {
@@ -32,4 +32,6 @@ int main()
 	cout << "sumata na elementite izvan radiusa na bombata = " << s<<"\n";
 	system("pause");
 	return 0;
-}*/
+}
+
+//1.0\1.0

@@ -1,4 +1,4 @@
-/*#include <iostream>
+#include <iostream>
 using namespace std;
 
 int main()
@@ -27,4 +27,5 @@ int main()
 
 	system("Pause");
 	return 0; 
-}*/
+	//1.0\1.0
+}

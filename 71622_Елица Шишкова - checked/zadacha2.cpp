@@ -37,4 +37,6 @@ int main()
 		cout << sum; 
 		system("Pause");
 			return 0; 
+
+	//1.0\1.0
 }

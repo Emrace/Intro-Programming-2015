@@ -25,6 +25,7 @@ bool isPrime(int p)
 
 int main()
 {
+	//need some explaining
 	int number;
 	cout << "Vuvedi chislo: " << endl;
 	cin >> number;

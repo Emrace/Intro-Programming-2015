@@ -26,5 +26,5 @@ int main()
 
 	system("pause");
 	return 0;
-	
+//1.0\1.0
 }

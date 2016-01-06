@@ -12,6 +12,6 @@ int Function(int n, int a){
 	cin >> n;
 	for (int i = 0; )
 
-
+//0.0\1.0
 }
 	

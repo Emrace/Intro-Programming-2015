@@ -21,7 +21,7 @@ int main()
 	int i, j;
 		for (i = 0; i < 10; i++)
 			for (j = 0; j < 10; j++)
-
+				//condition should be only " > " - -0.1
 				if ((x0 - i)*(x0 - i) + (y0 - j)*(y0 - j) >= (r*r))
 				{
 					sum += a[i][j];
@@ -29,4 +29,6 @@ int main()
 				}
 	system("PAUSE");
 	return 0;
+
+	//0.9\1.0
 }

@@ -18,6 +18,7 @@ int main()
 	cin >> r;
 	for (int i = 0; i < 10; i++){
 		for (int j = 0; j < 10; j++){
+			//wrong condition - -0.5
 			if ((x - i)*(x - i) + (y - i)*(y - j) <= r*r)
 			{
 				sum += arr[i][j];
@@ -26,6 +27,7 @@ int main()
 	}
 	cout << "Sumata na elementite izvun bombata e: " << sum << endl;
 
+//0.5/1.0
 	system("pause");
 	return 0;
 }

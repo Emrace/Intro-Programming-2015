@@ -1,5 +1,6 @@
-/*#include<iostream>
+#include<iostream>
 using namespace std;
+//should return bool
 int isPrime(int n)
 {
 	for (int i = 2; i < n; i++)
@@ -8,6 +9,7 @@ int isPrime(int n)
 			return false;
 		else return true;
 	}
+	//0.5\0.5
 }
 int chetno(int n)
 {
@@ -22,6 +24,7 @@ int chetno(int n)
 
 	}
 	return br;
+	//0.5\0.5
 }
 int main()
 {
@@ -51,4 +54,6 @@ int main()
 
 	system("pause");
 	return 0;
-}*/
+
+	//2.0\2.0
+}
