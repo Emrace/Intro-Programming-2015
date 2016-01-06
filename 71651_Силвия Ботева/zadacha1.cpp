@@ -3,6 +3,7 @@ using namespace std;
 
 int Chetno(int n)
 {
+	//the function doesn't return a value -> make it void - -0.1
 	if (n % 2 == 0){
 		cout << "Chisloto e chetno " << endl;
 	}
@@ -35,6 +36,7 @@ int main()
 		cout << Chetno(number);
 	}
 	else if (isPrime(number) == true){
+		//you have to initialize a variable before performing operations on it - -0.1
 		int sum += number;
 	}
 	{

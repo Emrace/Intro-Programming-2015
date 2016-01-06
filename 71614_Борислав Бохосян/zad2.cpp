@@ -27,7 +27,7 @@ int main()
 	}
 	cout << br;
 	
-
+//1.0\1.0
 	system("pause");
 	return 0;
 }

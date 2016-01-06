@@ -34,4 +34,6 @@ int main()
 
 	system("pause");
 	return 0;
+
+	//2.0\2.0
 }

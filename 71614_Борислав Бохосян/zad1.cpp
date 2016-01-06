@@ -16,6 +16,7 @@ int main()
 	else if (isPrime(n) == true){
 		for (int i = n-2; i > 0; i-=2)
 		{
+			//prints all the odd numbers, not their sum - -0.5
 			cout << i << endl;
 		}
 	}
@@ -34,6 +35,7 @@ int numberTwo(int n)
 		n /= 2;
 	}
 	return i;
+	//doesn't work correctly on powers of 2 (e.g. 8,16,32) - -0.2
 }
 bool isPrime(int n)
 {
@@ -45,4 +47,8 @@ bool isPrime(int n)
 		}
 	}
 	return isPrimeV2;
+
+	//0.5
 }
+
+//1.3\2.0
