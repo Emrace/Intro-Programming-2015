@@ -1,0 +1,79 @@
+#include <iostream>
+using namespace std;
+
+
+int symbolsTogether(string text){
+bool together = false;
+int count = 0;
+int countTimes = 0;
+int sum = 0;
+for (size_t i = 0; i < text.length - 1; i++)
+{
+if ((int)text[i] == (int)text[i + 1] + 1){
+together = true;
+count++;
+}
+else if (together){
+sum += count;
+countTimes++;
+}
+}
+return sum / countTimes;
+}
+
+
+bool isValidLast(string zad){
+	for (size_t i = 0; i < zad.length - 1; i++)
+	{
+		// shteproverqvam dali 2 posledovatelni simvola sa aritmetichni oper ili posledovatelni chisla
+	}
+}
+
+bool isValid(string zad){
+	for (size_t i = 0; i < zad.length; i++)
+	{
+		if ((((int)zad[i] < 48 || (int)zad[i] > 57)) && (int)zad[i] != 126 && (int)zad[i] != 42 && (int)zad[i] != 43 && (int)zad[i] != 42){ // ne e matematika
+		return false;
+	}
+		else if ((int)zad[0] == 126 && (int)zad[0] == 42 && (int)zad[0] == 43 && (int)zad[0] == 42){	// ne zapochva s aritmetichen operator
+			return false;
+		}
+		else if ((int)zad[zad.length - 1] == 126 && (int)zad[zad.length - 1] == 42 && (int)zad[zad.length - 1] == 43 && (int)zad[zad.length - 1] == 42){	// ne zavurhsva aritmetichen operator
+			return false;
+		}
+		else if(isValidLast(zad)){
+			return true;
+		}
+		else{
+			return false;
+		}
+			
+
+	}
+}
+
+
+bool isInNUmber(int number, int x){
+	
+		int temp = number % 10;
+		
+		if (temp == x){
+			return true;
+		}
+		if (number / 10 == 0){
+			return false;
+		}
+
+		else{
+			isInNUmber(number / 10, x);
+		
+	}
+}
+
+int main(){
+	string title = "abcd";
+	cout << "hello world" << endl;
+	cout << "result of isInNUmber: " << isInNUmber(123, 2) << endl;
+	//int a = symbolsTogether(title);
+	//cout << "there are symbols together: " << a << endl;
+}

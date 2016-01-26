@@ -1,0 +1,13 @@
+﻿Build started 12.1.2016 г. 17:14:16.
+     1>Project "c:\Users\grade\documents\milena\zadacha3\zadacha3\zadacha3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 2013\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+     1>c:\users\grade\documents\milena\zadacha3\zadacha3\main.cpp(30): error C2601: 'main' : local function definitions are illegal
+                 c:\users\grade\documents\milena\zadacha3\zadacha3\main.cpp(5): this line contains a '{' which has not yet been matched
+     1>c:\users\grade\documents\milena\zadacha3\zadacha3\main.cpp(37): fatal error C1075: end of file found before the left brace '{' at 'c:\users\grade\documents\milena\zadacha3\zadacha3\main.cpp(5)' was matched
+     1>Done Building Project "c:\Users\grade\documents\milena\zadacha3\zadacha3\zadacha3.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.32
